@@ -43,6 +43,10 @@ body {
   font-size: 17px;
 }
 
+.text {
+  font-weight: initial;
+}
+
 .fieldset__input {
   cursor: pointer;
 }
