@@ -1,0 +1,48 @@
+* {
+  box-sizing: borde-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.fieldset__legend {
+  font-size: 18px;
+}
+
+.fieldset {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 500px;
+}
+
+.fieldset__container {
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+
+.fieldset__label {
+  font-size: 17px;
+}
+
+.fieldset__input {
+  cursor: pointer;
+}
